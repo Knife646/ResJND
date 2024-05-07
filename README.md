@@ -7,8 +7,10 @@ Rethinking and Conceptualizing Just Noticeable Difference Estimation by Residual
 
 CPL-Set consists of 882 pristine images and their corresponding CPL images, selected through carefully designed subjective experiment.
 
- ![Image](https://github.com/Knife646/ResJND/blob/main/figure/CPL-set.png)
+ ![Image](https://github.com/Knife646/ResJND/blob/main/figure/CPL-Set.png)
  
+If you need the CPL-Set and ResJND for academic usage, you can download through follow link:
+
 
 # ResJND Pipeline
 Pipeline of our proposed ResJND.
@@ -19,5 +21,3 @@ It takes the original image as its input and predicts the corresponding CPL imag
 
  ![Image](https://github.com/Knife646/ResJND/blob/main/figure/ResJND.png)
 
-# Resource
-If you need the CPL-Set and ResJND for academic usage, you can download through follow link:
