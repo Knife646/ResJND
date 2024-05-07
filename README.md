@@ -21,3 +21,40 @@ It takes the original image as its input and predicts the corresponding CPL imag
 
  ![Image](https://github.com/Knife646/ResJND/blob/main/figure/ResJND.png)
 
+# Training and Generating
+Uncompress the dataset and put it in the working directory:
+ 
+    IC9600
+       ├──train.py
+       ├──test.py
+       ├──data_loader.py
+       └──Dataset
+             ├──train
+             ├──test
+             ├──valid
+             └──get_patch
+
+If you want to train ResJND, just execute the following command:
+
+     train.py
+
+The checkpoint will be saved to ''/checkpoint''
+
+If you want to generate JND maps, just execute the following command:
+
+     test.py
+
+The generated JND maps will be saved to ''/checkpoint''
+
+Note that the key environment used in our experiments are:
+
+     python == 3.7
+   
+     torch == 1.13.1 + cu117
+   
+     torchvision == 0.14.1
+   
+
+# Citation
+If you find this repo useful, please cite our paper.
+             
