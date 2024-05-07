@@ -44,7 +44,7 @@ If you want to generate JND maps, just execute the following command:
 
      test.py
 
-The generated JND maps will be saved to ''/checkpoint''
+The generated JND maps will be saved to ''/result''
 
 Note that the key environment used in our experiments are:
 
