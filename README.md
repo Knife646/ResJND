@@ -20,4 +20,4 @@ It takes the original image as its input and predicts the corresponding CPL imag
  ![Image](https://github.com/Knife646/ResJND/blob/main/ResJND.png)
 
 # Resource
-If you need the ResJND for academic usage, you can download through follow link:
+If you need the CPL-Set and ResJND for academic usage, you can download through follow link:
