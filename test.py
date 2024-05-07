@@ -11,9 +11,8 @@ You can use this code to generate JND map.
 """
 
 def rgb_to_rms_gray(img_array):
-    # 分离三个通道
+
     r, g, b = img_array[0, :,: ], img_array[1, :, :], img_array[2, :, :]
-    # 计算RMS值
     gary_img = np.sqrt((r ** 2 + g ** 2 + b ** 2) / 3)
 
     return gary_img
@@ -30,8 +29,8 @@ model1.load_state_dict(torch.load('checkpoint/model_epoch_250_44.9119873046875.p
 model1.cuda()
 
 # Dataload
-test_set = test_data(test_path=f"figure"
-                     ,label_path="figure")
+test_set = test_data(test_path=f"example"
+                     ,label_path="example")
 test_data_loader = DataLoader(dataset=test_set, batch_size=opt.batchSize,shuffle=False)
 
 k=1
