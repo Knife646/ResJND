@@ -11,6 +11,7 @@ CPL-Set consists of 882 pristine images and their corresponding CPL images, sele
  
 If you need the CPL-Set and ResJND for academic usage, you can download through follow link:
 
+[Download](https://pan.baidu.com/s/1QbDY4u-q1CIqqKHr1wu0fg?pwd=egqh)
 
 # ResJND Pipeline
 Pipeline of our proposed ResJND.
