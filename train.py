@@ -151,8 +151,8 @@ def train(training_data_loader, optimizer, model1, criterion, epoch):
 def save_checkpoint(model1, epoch,loss_valid):
     model_out_path = "checkpoint/" + "model_epoch_{}_{}.pth".format(epoch, loss_valid)
     state = {"epoch": epoch, "model1": model1}
-    if not os.path.exists("Weight"):
-        os.makedirs("Weight")
+    if not os.path.exists("checkpoint"):
+        os.makedirs("checkpoint")
 
     torch.save(model1.state_dict(),model_out_path)
 
