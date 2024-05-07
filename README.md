@@ -38,6 +38,9 @@ If you want to train ResJND, just execute the following command:
 
      train.py
 
+If you want to train on your own dataset, you can use ''gete_patch.m'' tool to crop the image to make the input dimensions same.
+
+
 The checkpoint will be saved to ''/checkpoint''
 
 If you want to generate JND maps, just execute the following command:
