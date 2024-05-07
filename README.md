@@ -24,7 +24,7 @@ It takes the original image as its input and predicts the corresponding CPL imag
 # Training and Generating
 Uncompress the dataset and put it in the working directory:
  
-    IC9600
+    ResJND
        ├──train.py
        ├──test.py
        ├──data_loader.py
