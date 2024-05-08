@@ -61,4 +61,5 @@ Note that the key environment used in our experiments are:
 
 # Citation
 If you find this repo useful, please cite our paper.
-             
+
+    ''Rethinking and Conceptualizing Just Noticeable Difference Estimation by Residual Learning.''
