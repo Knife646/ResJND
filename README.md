@@ -62,4 +62,10 @@ Note that the key environment used in our experiments are:
 # Citation
 If you find this repo useful, please cite our paper.
 
-    ''Rethinking and Conceptualizing Just Noticeable Difference Estimation by Residual Learning.''
+    @article{jiang2024rethinking,
+    title={Rethinking and Conceptualizing Just Noticeable Difference Estimation by Residual Learning},
+    author={Jiang, Qiuping and Liu, Feiyang and Wang, Zhihua and Wang, Shiqi and Lin, Weisi},
+    journal={IEEE Transactions on Circuits and Systems for Video Technology},
+    year={2024},
+    publisher={IEEE}
+    }
