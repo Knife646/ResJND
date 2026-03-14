@@ -145,7 +145,7 @@ def train(training_data_loader, optimizer, model1, criterion, epoch):
         if iteration%100 == 0:
             print("===> Epoch[{}]({}/{}): Loss: {:.10f}".format(epoch, iteration, len(training_data_loader), loss.item()))
 
-        return loss
+    return loss
 
 
 def save_checkpoint(model1, epoch,loss_valid):
